@@ -426,8 +426,6 @@ function SessionContent() {
             <div className={styles.idea__board_inspiration} style={{display: show_overlay === true ? 'none' : 'block'}}>
               <iframe src={`https://www.bing.com/images/search?q=${CardList[visible].Keyword}`} width="100%" height="100%" />
             </div>
-
-            
           </div>  
           <button className={styles.inspiration} onClick={onoff}>Need Inspiration?</button>
         </div>
