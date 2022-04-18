@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.fav {
+  margin: 0 10px 0 30px;
+  width: 36.51px;
+  height: 36.51px;
+}
+
+.aTag {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30.8957px;
+  line-height: 36px;
+}
+
+.sessionTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  width: 37px;
+  height: 37px;
+  margin-right: 18px;
+}
+
+.end {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 0 12.85px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 39px;
+  color: black;
+  margin-right: 30px;
+}
+
+.end:hover {
+  background-color: white;
+  color: black;
+}
